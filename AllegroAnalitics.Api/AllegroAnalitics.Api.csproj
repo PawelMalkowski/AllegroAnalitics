@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>allegroapi</AssemblyName>
+    <OutputType>WinExe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="9.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.0-alpha.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AllegroAnalitics.Common\AllegroAnalitics.Common.csproj" />
+    <ProjectReference Include="..\AllegroAnalitics.Data.Sql\AllegroAnalitics.Data.Sql.csproj" />
+    <ProjectReference Include="..\AllegroAnalitics.Identity\AllegroAnalitics.Data.Identity.csproj" />
+    <ProjectReference Include="..\AllegroAnalitics.IServices\AllegroAnalitics.IServices.csproj" />
+    <ProjectReference Include="..\AllegroAnalitics.Services\AllegroAnalitics.Services.csproj" />
+    <ProjectReference Include="..\AlllegroAnalitics.DataAgregation\AllegroAnalitics.DataAgregation.csproj" />
+  </ItemGroup>
+
+
+</Project>

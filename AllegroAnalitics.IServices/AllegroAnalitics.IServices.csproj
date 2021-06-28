@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AllegroAnalitics.Common\AllegroAnalitics.Common.csproj" />
+    <ProjectReference Include="..\AllegroAnalitics.Domain\AllegroAnalitics.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

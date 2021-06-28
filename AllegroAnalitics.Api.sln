@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllegroAnalitics.Api", "AllegroAnalitics.Api\AllegroAnalitics.Api.csproj", "{D20720DE-C7E1-4CEC-B86B-2941F7A50EAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllegroAnalitics.Common", "AllegroAnalitics.Common\AllegroAnalitics.Common.csproj", "{610AA288-6919-4435-A2C9-44D376B8F06B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllegroAnalitics.Data.Identity", "AllegroAnalitics.Identity\AllegroAnalitics.Data.Identity.csproj", "{B40CEC46-086B-413B-A7D3-1A605378E587}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllegroAnalitics.Data.Sql", "AllegroAnalitics.Data.Sql\AllegroAnalitics.Data.Sql.csproj", "{1D7D4AF5-B684-486A-9D95-FF132E2537A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllegroAnalitics.Domain", "AllegroAnalitics.Domain\AllegroAnalitics.Domain.csproj", "{0CF9855C-42A2-495A-8B40-1AFEA4156AF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllegroAnalitics.IData", "AllegroAnalitics.IData\AllegroAnalitics.IData.csproj", "{F13AC39F-2936-4F8D-801C-8144D2DC377C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllegroAnalitics.IServices", "AllegroAnalitics.IServices\AllegroAnalitics.IServices.csproj", "{DA509CD0-B1D1-4E4A-8A24-388D9B30C6AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllegroAnalitics.Services", "AllegroAnalitics.Services\AllegroAnalitics.Services.csproj", "{0428EB0A-B693-4036-8049-E36A24B599AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DADA0C31-D26D-4EA4-9EFB-9B2A136AD0BC}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllegroAnalitics.DataAgregation", "AlllegroAnalitics.DataAgregation\AllegroAnalitics.DataAgregation.csproj", "{9486CEAC-AE64-4313-B689-8382B2584A3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D20720DE-C7E1-4CEC-B86B-2941F7A50EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20720DE-C7E1-4CEC-B86B-2941F7A50EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20720DE-C7E1-4CEC-B86B-2941F7A50EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20720DE-C7E1-4CEC-B86B-2941F7A50EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{610AA288-6919-4435-A2C9-44D376B8F06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{610AA288-6919-4435-A2C9-44D376B8F06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{610AA288-6919-4435-A2C9-44D376B8F06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{610AA288-6919-4435-A2C9-44D376B8F06B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B40CEC46-086B-413B-A7D3-1A605378E587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40CEC46-086B-413B-A7D3-1A605378E587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40CEC46-086B-413B-A7D3-1A605378E587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40CEC46-086B-413B-A7D3-1A605378E587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D7D4AF5-B684-486A-9D95-FF132E2537A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D7D4AF5-B684-486A-9D95-FF132E2537A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D7D4AF5-B684-486A-9D95-FF132E2537A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D7D4AF5-B684-486A-9D95-FF132E2537A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CF9855C-42A2-495A-8B40-1AFEA4156AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF9855C-42A2-495A-8B40-1AFEA4156AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF9855C-42A2-495A-8B40-1AFEA4156AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF9855C-42A2-495A-8B40-1AFEA4156AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F13AC39F-2936-4F8D-801C-8144D2DC377C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13AC39F-2936-4F8D-801C-8144D2DC377C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13AC39F-2936-4F8D-801C-8144D2DC377C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13AC39F-2936-4F8D-801C-8144D2DC377C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA509CD0-B1D1-4E4A-8A24-388D9B30C6AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA509CD0-B1D1-4E4A-8A24-388D9B30C6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA509CD0-B1D1-4E4A-8A24-388D9B30C6AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA509CD0-B1D1-4E4A-8A24-388D9B30C6AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0428EB0A-B693-4036-8049-E36A24B599AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0428EB0A-B693-4036-8049-E36A24B599AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0428EB0A-B693-4036-8049-E36A24B599AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0428EB0A-B693-4036-8049-E36A24B599AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9486CEAC-AE64-4313-B689-8382B2584A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9486CEAC-AE64-4313-B689-8382B2584A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9486CEAC-AE64-4313-B689-8382B2584A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9486CEAC-AE64-4313-B689-8382B2584A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AA25C68-7F76-4013-B902-8E217946C34F}
+	EndGlobalSection
+EndGlobal
